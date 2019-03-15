@@ -32,7 +32,7 @@ project(':iddd_common') {
         compile group: 'javax.transaction', name: 'jta', version: '1.1'
 
         testCompile group: 'javax.persistence', name: 'persistence-api', version: '1.0.2' 
-        testCompile group: 'mysql', name: 'mysql-connector-java', version: '5.1.6' 
+        testCompile group: 'mysql', name: 'mysql-connector-java', version: '5.1.44'
         testCompile group: 'commons-dbcp', name: 'commons-dbcp', version: '1.4' 
     }
 }
@@ -46,7 +46,7 @@ project(':iddd_identityaccess') {
 
         testCompile files(this.project(':iddd_common').sourceSets.test.output)
         testCompile group: 'javax.persistence', name: 'persistence-api', version: '1.0.2'
-        testCompile group: 'mysql', name: 'mysql-connector-java', version: '5.1.6' 
+        testCompile group: 'mysql', name: 'mysql-connector-java', version: '5.1.44'
         testCompile group: 'commons-dbcp', name: 'commons-dbcp', version: '1.4' 
         testCompile group: 'javax.servlet', name: 'servlet-api', version: '2.5' 
         testCompile group: 'org.jboss.resteasy', name: 'tjws', version: '2.0.1.GA' 
@@ -60,7 +60,7 @@ project(':iddd_collaboration') {
 
         testCompile files(this.project(':iddd_common').sourceSets.test.output)
         testCompile group: 'javax.persistence', name: 'persistence-api', version: '1.0.2'
-        testCompile group: 'mysql', name: 'mysql-connector-java', version: '5.1.6' 
+        testCompile group: 'mysql', name: 'mysql-connector-java', version: '5.1.44'
         testCompile group: 'commons-dbcp', name: 'commons-dbcp', version: '1.4' 
     }
 }
